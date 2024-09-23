@@ -8,9 +8,9 @@ import"./assets/styles-DzUhCamZ.js";import{S as i}from"./assets/vendor-CgTBfC_f.
             .gallery {
                 padding: 0;
                 margin: 24px 156px;
+                gap: 24px;
                 display: flex;
                 flex-wrap: wrap;
-                gap: 24px;
                 list-style: none;
             }
             .gallery-item {
