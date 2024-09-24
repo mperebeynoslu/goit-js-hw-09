@@ -4,34 +4,6 @@ let formData = {
 }
 
 const customStyle = document.createElement('style');
-        customStyle.textContent = `
-            .feedback-form {
-                display: flex;
-                flex-direction: column;
-                gap: 8px;
-                padding: 24px;
-                width: 408px;
-            }
-            label {
-                font-family: "Montserrat", sans-serif;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.04em;
-                color: #2e2f42;
-                display: flex;
-                flex-direction: column;
-            }
-            button {
-                color: #FFF;
-                background-color: #4e75ff;
-                border: none;
-                border-radius: 8px;
-                padding: 8px 16px;
-                width: 95px;
-                height: 40px;
-                }
-        `;
 
 document.head.appendChild(customStyle);
 

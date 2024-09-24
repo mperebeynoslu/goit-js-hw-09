@@ -83,23 +83,6 @@ const galleryItems = images.map(({ preview, original, description }) => {
 gallery.insertAdjacentHTML('afterbegin', galleryItems);
 
 const customStyle = document.createElement('style');
-        customStyle.textContent = `
-            .gallery {
-                padding: 0;
-                margin: 24px 156px;
-                gap: 24px;
-                display: flex;
-                flex-wrap: wrap;
-                list-style: none;
-            }
-            .gallery-item {
-                width: calc((100% - 48px) / 3);
-            }
-            .gallery img {
-                width: 100%;
-                display: block;
-            }
-        `;
 
 document.head.appendChild(customStyle);
 
